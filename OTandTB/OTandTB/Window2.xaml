@@ -1,0 +1,29 @@
+﻿<Window x:Class="OTandTB.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Программа учета ОТ и ТБ" Height="420" Width="600" TextBlock.TextAlignment="Center" Icon="Icon1.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" Name="search" TextBlock.TextAlignment="Center"/>
+            <RowDefinition Height="3*" Name="Notification"/>
+            <RowDefinition Height="1*" Name="add"/>
+            <RowDefinition Height="6*" Name="Employees"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Личная карточка сотрудника" TextBlock.FontSize="16" HorizontalAlignment="Left" Margin="204,0,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="27,21,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Иванов" VerticalAlignment="Top" Width="120" TextAlignment="Left"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="152,21,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Василий" VerticalAlignment="Top" Width="120" TextAlignment="Left"/>
+        <TextBox HorizontalAlignment="Left" Margin="277,21,0,62" Grid.Row="1" TextWrapping="Wrap" Text="Петрович" Width="137" TextAlignment="Left"/>
+        <DatePicker HorizontalAlignment="Left" Margin="463,20,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-0.429,-0.417" DisplayDate="1980-08-03"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="27,0,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.683,0.538"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="152,0,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="2.383,0.615"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Margin="277,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.683,0.538" Grid.Row="1"/>
+        <Label Content="Дата рождения" HorizontalAlignment="Left" Margin="463,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="27,63,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Иванов" VerticalAlignment="Top" Width="245" TextAlignment="Left"/>
+        <Label Content="Должность" HorizontalAlignment="Left" Margin="27,42,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.683,0.538"/>
+        <DatePicker HorizontalAlignment="Left" Margin="277,62,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-0.429,-0.417" DisplayDate="1980-08-03"/>
+        <Label Content="Дата приема" HorizontalAlignment="Left" Margin="277,42,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Grid.Row="1"/>
+        <DatePicker HorizontalAlignment="Left" Margin="384,62,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-0.429,-0.417" DisplayDate="1980-08-03"/>
+        <Label Content="Дата увольнения" HorizontalAlignment="Left" Margin="384,42,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Grid.Row="1"/>
+        <CheckBox Content="Уволен" HorizontalAlignment="Left" Margin="498,67,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\bin\Debug\OTandTB2.exe.config
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\bin\Debug\OTandTB2.exe
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\bin\Debug\OTandTB2.pdb
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\MainWindow.baml
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\MainWindow.g.cs
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\App.g.cs
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\OTandTB2_MarkupCompile.cache
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\OTandTB2.g.resources
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\OTandTB2.Properties.Resources.resources
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\OTandTB2.csproj.GenerateResource.Cache
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\OTandTB2.exe
+d:\users\krv\visual studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\OTandTB2.pdb
+D:\users\krv\Visual Studio 2013\Projects\OTandTB2\OTandTB2\obj\Debug\OTandTB2.csprojResolveAssemblyReference.cache

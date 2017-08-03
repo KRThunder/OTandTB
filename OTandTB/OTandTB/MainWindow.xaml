@@ -1,0 +1,34 @@
+﻿<Window x:Class="OTandTB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Программа учета ОТ и ТБ" Height="520" Width="600" TextBlock.TextAlignment="Center" Icon="Icon1.ico">
+    <Grid HorizontalAlignment="Left" Height="418" Margin="5,5,0,0" VerticalAlignment="Top" Width="570" Grid.Row="3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" Name="search"/>
+            <RowDefinition Height="2*" Name="Notification"/>
+            <RowDefinition Height="1*" Name="add"/>
+            <RowDefinition Height="6*" Name="Employees"/>
+        </Grid.RowDefinitions>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="127,10,0,0" TextWrapping="Wrap" Text="Введите параметры поиска" VerticalAlignment="Top" Width="233" TextAlignment="Left"/>
+        <Button Content="Поиск" HorizontalAlignment="Left" Margin="379,10,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.381,1.388" Height="23"/>
+        <ScrollViewer Height="65" Width="370" Margin="101,40,97,-77">
+            <Border BorderThickness="1" BorderBrush="Black">
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="63" Width="370" TextAlignment="Left"><Run Text="Истекает инструктаж у 7 сотрудников"/><LineBreak/><Run Text="Просрочен инструктаж у 4 сотрудников"/><LineBreak/><Run Text="Просрочен медосмотр у 3 сотрудников"/><LineBreak/><Run Text="..."/></TextBlock>
+            </Border>
+        </ScrollViewer>
+        <CheckBox Content="Скрыть уволенных" HorizontalAlignment="Left" Margin="102,10,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="379,7,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.147,0.35"/>
+        <Grid>
+            <ListView Margin="13,171,7,-420" Name="lvPersons" Width="550" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Фамилия" Width="110" DisplayMemberBinding="{Binding Soname}" />
+                        <GridViewColumn Header="Имя" Width="110" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Header="Отчество" Width="140" DisplayMemberBinding="{Binding Init}" />
+                        <GridViewColumn Header="СТатус" Width="167" DisplayMemberBinding="{Binding Status}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+    </Grid>
+</Window>
